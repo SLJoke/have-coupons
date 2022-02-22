@@ -1,0 +1,78 @@
+.swiper {
+  height: 260rpx;
+}
+
+.swiper-item {
+  margin: 10rpx 20rpx;
+  height: calc(260rpx - 10rpx);
+}
+
+.swiper-img {
+  height: 100%;
+  border-radius: 10rpx;
+}
+
+.demo-text-1 {
+  background-color: #e74c3c;
+}
+
+.demo-text-2 {
+  background-color: #249c00;
+}
+
+.demo-text-3 {
+  background-color: #921788;
+}
+
+.content-row {
+  height: 180rpx;
+  margin: 12rpx 8rpx;
+  display: flex;
+}
+
+.content-row .left-row {
+  width: 70%;
+  height: 100%;
+  border-right: 2px dashed #eeeeee;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.content-row .left-row::before {
+  content: '';
+  position: absolute;
+  width: 18rpx;
+  height: 18rpx;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  top: -9rpx;
+  left: calc(100% - 8rpx);
+}
+
+.content-row .left-row::after {
+  content: '';
+  position: absolute;
+  width: 18rpx;
+  height: 18rpx;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  top: calc(100% - 9rpx);
+  left: calc(100% - 8rpx);
+}
+
+.content-row .right-row {
+  width: 30%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-row .right-row view {
+  padding: 10rpx 30rpx;
+  border-radius: 10rpx;
+  color: #ffffff;
+  font-size: 24rpx;
+  background-color: #d4912d;
+}

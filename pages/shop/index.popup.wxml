@@ -1,0 +1,74 @@
+<template name="disc">
+  <view class="popup" animation="{{fadeToggle}}">
+    <view class="lottery-record" bindtap="goToLotteryRecord">抽奖记录</view>
+    <image class="disc" src="/img/shop/disc.png"></image>
+    <!-- <image class="bracket" src="/img/shop/bracket.png"></image> -->
+    <view class="bracket" animation="{{rotate}}">
+      <view class="part">
+        <text>5活跃值</text>
+      </view>
+      <view class="part">
+        <text>8活跃值</text>
+      </view>
+      <view class="part">
+        <text>66活跃值</text>
+      </view>
+      <view class="part">
+        <text>5活跃值</text>
+      </view>
+      <view class="part">
+        <text>1活跃值</text>
+      </view>
+      <view class="part">
+        <text>谢谢参与</text>
+      </view>
+      <view class="part">
+        <text>0.2元红包</text>
+      </view>
+      <view class="part">
+        <text>2活跃值</text>
+      </view>
+    </view>
+    <view class="pointer" bindtap="lotteryStart">
+      <image src="/img/shop/pointer.png"></image>
+      <text>5活跃值/次</text>
+    </view>
+    <image class="base" src="/img/shop/base.png"></image>
+    <image class="cancel" src="/img/shop/ic_1.png" bindtap="hideDisc"></image>
+  </view>
+</template>
+
+<template name="rule">
+  <view class="popup" animation="{{fadeToggle}}">
+    <view class="content">
+      <view class="head">
+        <image src="/img/shop/img_1.png" style="width: 686rpx;height: 307rpx;"></image>
+      </view>
+      <view class="body">
+        <view class="txt">
+          <text class="shit">1、</text>
+          <text class="shit-shit">每日完成任务后可获得对应的活跃值奖励；</text>
+        </view>
+        <view class="txt">
+          <text class="shit">2、</text>
+          <text class="shit-shit">活跃值奖励直接发放，可参与夺宝和抽奖；</text>
+        </view>
+        <view class="txt">
+          <text class="shit">3、</text>
+          <text class="shit-shit">红包奖励将以货币形式直接发放至您的账户，请注意查收；</text>
+        </view>
+        <view class="txt">
+          <text class="shit">4、</text>
+          <text class="shit-shit">每日任务在当日23:50截止，00:00更新新的每日任务；</text>
+        </view>
+        <view class="txt">
+          <text class="shit">5、</text>
+          <text class="shit-shit">活动最终解释权归流量空间所有。</text>
+        </view>
+      </view>
+    </view>
+    <view class="exit" bindtap="hideRule">
+      <image src="/img/shop/ic-3.png" style="width: 60rpx;height: 60rpx;"></image>
+    </view>
+  </view>
+</template>

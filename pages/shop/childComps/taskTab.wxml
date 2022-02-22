@@ -1,0 +1,30 @@
+<cust-tabs tabs="{{['每日任务', '其他任务']}}" active="{{current}}" bind:change="tabChange">
+  <cust-tab active="{{current}}" index="{{0}}">
+    <view class="day-task">
+      <block wx:for="{{dayTask}}" wx:key="*this">
+        <view class="task-item">
+          <image style="width: 80rpx;height: 80rpx;" src="{{item.imgUrl}}"></image>
+          <view class="text">
+            <text class="title">{{item.title}}</text>
+            <text class="mark">{{item.mark}}</text>
+          </view>
+          <button class="btn" bindtap="queryData" disabled="{{}}">去完成</button>
+        </view>
+      </block>
+    </view>
+  </cust-tab>
+  <cust-tab active="{{current}}" index="{{1}}">
+    <view class="day-task">
+      <block wx:for="{{otherTask}}" wx:key="*this">
+        <view class="task-item">
+          <image style="width: 80rpx;height: 80rpx;" src="{{item.imgUrl}}"></image>
+          <view class="text">
+            <text class="title">{{item.title}}</text>
+            <text class="mark">{{item.mark}}</text>
+          </view>
+          <button class="btn" bindtap="queryData" disabled="{{}}">去完成</button>
+        </view>
+      </block>
+    </view>
+  </cust-tab>
+</cust-tabs>

@@ -1,0 +1,13 @@
+<view>
+  <view class="tab-ctrl">
+    <block wx:for="{{tabCtrl}}" wx:key="*this">
+      <view class="title {{currentIndex === index? 'isActive': ''}}" bindtap="tabCtrlClick" data-index="{{index}}">
+        <text>{{item}}</text>
+      </view>
+    </block>
+  </view>
+  <view class="content" wx:if="{{orderInfo}}">
+  
+  </view>
+  <view wx:else>暂无数据</view>
+</view>

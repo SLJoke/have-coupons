@@ -1,0 +1,63 @@
+@import "./index.skeleton.wxss";
+
+.userInfo {
+  background-color: #ffffff;
+  margin: 30rpx 40rpx 0;
+  border-radius: 20rpx 20rpx 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.userInfo .userinfo-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin: 40rpx;
+}
+
+.tips {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 0 15rpx;
+  border-radius: 15rpx;
+}
+
+.tips .item {
+  margin: 60rpx 0;
+  text-align: center;
+}
+
+.tips .item image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 10rpx;
+}
+
+.tips .item text {
+  display: block;
+}
+
+.snk {
+  background-color: #ffffff;
+  margin: 15rpx;
+  border-radius: 10rpx;
+}
+
+.snk .one {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.snk .one:nth-child(1) {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.snk .one image {
+  width: 40rpx;
+  height: 40rpx;
+}

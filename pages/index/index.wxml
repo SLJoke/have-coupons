@@ -1,0 +1,23 @@
+<view>
+  <view>
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+      <block wx:for="{{background}}" wx:key="*this">
+        <swiper-item>
+          <view class="swiper-item">
+            <view class="swiper-img {{item}}">{{item}}</view>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="content">
+    <block wx:for="{{content}}" wx:key="*this">
+      <view class="content-row">
+        <view class="left-row"></view>
+        <view class="right-row">
+          <view>点击领取</view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<scroll-view style="height: 100%;" scroll-y="true" show-scrollbar="false" enhanced="true">
+  <cust-header activeValue="{{activeValue}}" bind:toDisc="toDisc" bind:toRule="toRule" />
+  <cust-tab-ctrl />
+  <cust-task-tab />
+</scroll-view>
+
+<import src="./index.popup.wxml" />
+<template is="disc" data="{{fadeToggle,rotate,hideDisc,goToLotteryRecord,lotteryStart}}" wx-if="{{showDisc}}" />
+<template is="rule" data="{{fadeToggle,hideRule}}" wx-if="{{showRule}}" />

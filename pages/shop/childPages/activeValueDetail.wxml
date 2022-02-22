@@ -1,0 +1,12 @@
+<view>
+  <view class="head">
+    <view class="left">当前活跃值:</view>
+    <navigator open-type="navigateBack" hover-class="none"><view class="right">赚取活跃值</view></navigator>
+  </view>
+  <view class="divider"></view>
+  <cust-tabs tabs="{{['全部', '获取', '使用']}}" active="{{current}}" bind:change="tabChange">
+    <cust-tab active="{{current}}" index="{{0}}">全部暂无</cust-tab>
+    <cust-tab active="{{current}}" index="{{1}}">获取暂无</cust-tab>
+    <cust-tab active="{{current}}" index="{{2}}">使用暂无</cust-tab>
+  </cust-tabs>
+</view>

@@ -1,0 +1,3 @@
+<view class="tab" wx:if="{{active === index}}">
+  <slot></slot>
+</view>

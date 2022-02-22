@@ -1,0 +1,265 @@
+.header {
+  text-align: center;
+  height: 240rpx;
+  border-radius: 0 0 100rpx 100rpx / 0 0 20rpx 20rpx;
+  background-color: #FF995F80;
+}
+
+.layer5 {
+  z-index: 3;
+  height: 240rpx;
+  justify-content: flex-start;
+  padding-top: 28rpx;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.bd2 {
+  width: 708rpx;
+  height: 93rpx;
+  flex-direction: row;
+  display: flex;
+}
+
+.outer1 {
+  width: 173rpx;
+  height: 93rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.word2 {
+  width: 137rpx;
+  height: 37rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 28rpx;
+  letter-spacing: -1rpx;
+  font-family: MicrosoftYaHei;
+  white-space: nowrap;
+  line-height: 37rpx;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.bd3 {
+  width: 173rpx;
+  height: 52rpx;
+  margin-top: 4rpx;
+  flex-direction: row;
+  display: flex;
+}
+
+.txt2 {
+  /* width: 23rpx;
+  height: 52rpx; */
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 40rpx;
+  letter-spacing: -1rpx;
+  font-family: MicrosoftYaHei;
+  white-space: nowrap;
+  line-height: 52rpx;
+  text-align: left;
+}
+
+.word3 {
+  width: 71rpx;
+  height: 31rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 24rpx;
+  letter-spacing: -1rpx;
+  font-family: MicrosoftYaHei;
+  white-space: nowrap;
+  line-height: 31rpx;
+  text-align: left;
+  margin: 12rpx 0 0 8rpx;
+}
+
+.info1 {
+  width: 47rpx;
+  height: 31rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(102, 102, 102, 1);
+  font-size: 24rpx;
+  letter-spacing: -1rpx;
+  font-family: MicrosoftYaHei;
+  white-space: nowrap;
+  line-height: 31rpx;
+  text-align: left;
+  margin: 12rpx 0 0 24rpx;
+}
+
+.icon1 {
+  width: 24rpx;
+  height: 24rpx;
+  /* margin-top: 59rpx; */
+}
+
+.outer2 {
+  height: 56rpx;
+  background-color: rgba(255, 153, 95, 1);
+  width: 100rpx;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 20rpx;
+  display: flex;
+  flex-direction: column;
+  margin: 4rpx 0 0 411rpx;
+  border-radius: 40rpx 0 0 40rpx;
+}
+
+.txt3 {
+  width: 55rpx;
+  height: 37rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28rpx;
+  letter-spacing: -1rpx;
+  font-family: MicrosoftYaHei;
+  white-space: nowrap;
+  line-height: 37rpx;
+  text-align: right;
+}
+
+.bd14 {
+  height: 160rpx;
+  border-radius: 20rpx;
+  background-color: rgba(255, 255, 255, 1);
+  width: 330rpx;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  left: 32rpx;
+  right: 388rpx;
+  top: 140rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.main3 {
+  width: 274rpx;
+  height: 120rpx;
+  margin-left: 25rpx;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section10 {
+  width: 138rpx;
+  height: 79rpx;
+  margin-top: 21rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.word22 {
+  width: 110rpx;
+  height: 37rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 28rpx;
+  letter-spacing: -1rpx;
+  font-family: MicrosoftYaHei;
+  white-space: nowrap;
+  line-height: 37rpx;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.word23 {
+  width: 137rpx;
+  height: 26rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(102, 102, 102, 1);
+  font-size: 20rpx;
+  letter-spacing: 0rpx;
+  font-family: MicrosoftYaHei;
+  white-space: nowrap;
+  line-height: 26rpx;
+  text-align: center;
+  align-self: flex-end;
+  margin-top: 16rpx;
+}
+
+.img3 {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.bd15 {
+  height: 160rpx;
+  border-radius: 20rpx;
+  background-color: rgba(255, 255, 255, 1);
+  width: 330rpx;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  right: 32rpx;
+  left: 388rpx;
+  top: 140rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.box5 {
+  width: 273rpx;
+  height: 120rpx;
+  margin-left: 25rpx;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group3 {
+  width: 137rpx;
+  height: 79rpx;
+  margin-top: 21rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.word24 {
+  width: 110rpx;
+  height: 37rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 28rpx;
+  letter-spacing: -1rpx;
+  font-family: MicrosoftYaHei;
+  white-space: nowrap;
+  line-height: 37rpx;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.word25 {
+  width: 137rpx;
+  height: 26rpx;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(102, 102, 102, 1);
+  font-size: 20rpx;
+  letter-spacing: 0rpx;
+  font-family: MicrosoftYaHei;
+  white-space: nowrap;
+  line-height: 26rpx;
+  text-align: center;
+  margin-top: 16rpx;
+}
+
+.img4 {
+  width: 120rpx;
+  height: 120rpx;
+}

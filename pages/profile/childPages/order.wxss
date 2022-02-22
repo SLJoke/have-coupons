@@ -1,0 +1,31 @@
+.tab-ctrl {
+  display: flex;
+  justify-content: space-around;
+  color: #999999;
+  height: 100rpx;
+}
+
+.title {
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.isActive {
+  color: #333333;
+  font-size: 34rpx;
+  position: relative;
+}
+
+.isActive::after {
+  content: '';
+  width: 50%;
+  height: 4rpx;
+  position: absolute;
+  left: 50%;
+  bottom: 5rpx;
+  transform: translateX(-50%);
+  background-color: #333333;
+}

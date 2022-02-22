@@ -1,0 +1,8 @@
+<cust-tabs tabs="{{['夺宝记录', '抽奖记录']}}" bind:change="changeRecord" active="{{currentIndex}}">
+  <cust-tab active="{{currentIndex}}" index="{{0}}">
+    夺宝记录
+  </cust-tab>
+  <cust-tab active="{{currentIndex}}" index="{{1}}">
+    抽奖记录
+  </cust-tab>
+</cust-tabs>

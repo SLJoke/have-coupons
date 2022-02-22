@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop/index",
+    "pages/shop/childPages/record",
+    "pages/profile/index",
+    "pages/profile/childPages/order",
+    "pages/shop/childPages/more",
+    "pages/shop/childPages/activeValueDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4383F2",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "cust-tabs": "/component/tabs/index",
+    "cust-tab": "/component/tab/index"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "borderStyle": "black",
+    "selectedColor": "#4383F2",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "活动中心",
+        "iconPath": "img/tabbar/tab_ic_ladderplayer_nor.png",
+        "selectedIconPath": "img/tabbar/tab_ic_ladderplayer_sel.png"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "text": "任务墙",
+        "iconPath": "img/tabbar/tab_ic_money_nor.png",
+        "selectedIconPath": "img/tabbar/tab_ic_money_sel.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我",
+        "iconPath": "/img/tabbar/tab_ic_mine_nor.png",
+        "selectedIconPath": "/img/tabbar/tab_ic_mine_sel.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,12 @@
+<view class="tab">
+  <view class="tab-ctrl">
+    <view class="tab-box">
+      <block wx:for="{{tabs}}" wx:key="*this">
+        <view class="tab-item {{active === index? 'active': ''}}" bindtap="change" data-index="{{index}}">{{item}}</view>
+      </block>
+    </view>
+  </view>
+  <scroll-view class="content" scroll-y="{{true}}">
+    <slot></slot>
+  </scroll-view>
+</view>

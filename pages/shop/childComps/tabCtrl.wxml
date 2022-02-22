@@ -1,0 +1,25 @@
+<view class="tab-ctrl">
+  <view class="header">
+    <text class="txt1">超值福利任务</text>
+    <view class="box1">
+      <text class="txt2">查看更多</text>
+      <!-- <image style="width: 36rpx;height: 36rpx;" src="/img/shop/ic_one.png"></image> -->
+    </view>
+  </view>
+  <view style="height: 282rpx;overflow: hidden;margin-top: 26rpx;">
+    <scroll-view class="content" scroll-x="true">
+      <block wx:for="{{content}}" wx:key="*this">
+        <view class="item-wrapper">
+          <view class="item">
+            <image style="width: 80rpx;height: 80rpx;" src="{{item.imgUrl}}"></image>
+            <view class="text">
+              <text class="txt1">{{item.title}}</text>
+              <text class="txt2">{{item.mark}}</text>
+            </view>
+            <button class="btn" bindtap="queryData" disabled="{{}}">去完成</button>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>

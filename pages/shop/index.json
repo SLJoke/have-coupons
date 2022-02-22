@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "cust-header": "./childComps/header",
+    "cust-tab-ctrl": "./childComps/tabCtrl",
+    "cust-task-tab": "./childComps/taskTab"
+  },
+  "navigationBarTitleText": "任务墙"
+}

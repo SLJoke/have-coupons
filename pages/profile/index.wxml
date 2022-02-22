@@ -1,0 +1,37 @@
+<import src="index.skeleton.wxml" />
+<template is="skeleton" wx-if="{{false}}" />
+<view>
+  <view wx:if="true" class="userInfo">
+    <block wx:if="{{canIUseOpenData}}">
+      <view class="userinfo-avatar">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <open-data type="userNickName"></open-data>
+    </block>
+  </view>
+  <view wx:else></view>
+  <view class="tips">
+    <view class="item" wx:for="{{tips}}" wx:key="index">
+      <navigator url="{{item.url}}" hover-class="none">
+        <image src="{{item.imgUrl}}"></image>
+        <text>{{item.text}}</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="snk">
+    <view class="one">
+      <text>我的优惠卷</text>
+      <image src="/img/profile/ic-one.png"></image>
+    </view>
+    <view class="one">
+      <text>我的地址</text>
+      <image src="/img/profile/ic-one.png"></image>
+    </view>
+  </view>
+  <view class="snk">
+    <view class="one">
+      <text>意见反馈</text>
+      <image src="/img/profile/ic-one.png"></image>
+    </view>
+  </view>
+</view>

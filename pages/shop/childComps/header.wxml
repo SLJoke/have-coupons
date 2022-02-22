@@ -1,0 +1,37 @@
+<view class="header">
+  <view class="layer5">
+    <view class="bd2">
+      <view class="outer1">
+        <text lines="1" class="word2">当前活跃值</text>
+        <view class="bd3">
+          <text lines="1" class="txt2">{{activeValue}}</text>
+          <text lines="1" class="word3">活跃值</text>
+          <navigator url="/pages/shop/childPages/activeValueDetail" hover-class="none"><text lines="1" class="info1">明细</text></navigator>
+          <image src="/img/shop/ic_one.png" class="icon1"></image>
+        </view>
+      </view>
+      <view class="outer2" bindtap="onRule">
+        <text lines="1" class="txt3">规则</text>
+      </view>
+    </view>
+  </view>
+
+</view>
+<view class="bd14">
+  <view class="main3">
+    <view class="section10">
+      <text lines="1" class="word22">夺宝商城</text>
+      <text lines="1" class="word23">红包积分等你赚</text>
+    </view>
+    <image src="/img/shop/ic_three.png" class="img3"></image>
+  </view>
+</view>
+<view class="bd15">
+  <view class="box5" bindtap="onPopup">
+    <view class="group3">
+      <text lines="1" class="word24">积分抽奖</text>
+      <text lines="1" class="word25">小积分，大奖励</text>
+    </view>
+    <image src="/img/shop/ic_four.png" class="img4"></image>
+  </view>
+</view>
